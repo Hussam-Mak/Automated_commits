@@ -4,7 +4,7 @@ import datetime
 import subprocess
 
 # Configuration
-repo_path = "/path/to/your/repo"  # Change this to your repo path
+repo_path = r"C:\Users\hussa\OneDrive\Automated_commits"  # Change this to your repo path
 commit_message = "Automated commit to make my GitHub board green 🌱"
 total_commits_per_day = 1  # Adjust for more commits per day
 
