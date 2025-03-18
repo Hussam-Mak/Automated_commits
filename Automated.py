@@ -19,7 +19,7 @@ def get_commit_dates(start_date, days):
 
 # Set start date (e.g., 3 months ago) and number of days
 start_date = datetime.date.today() - datetime.timedelta(days=90)
-days_to_commit = 90  # Adjust to control how many days of commits you want
+days_to_commit =   # Adjust to control how many days of commits you want
 
 # Iterate over the days
 for commit_date in get_commit_dates(start_date, days_to_commit):
